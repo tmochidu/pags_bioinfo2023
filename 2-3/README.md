@@ -5,7 +5,7 @@
 
 ```bash
 docker pull takakoron/pags_bioinfo2022:${TAG}
-git clone https://github.com/genome-sci/python_bioinfo_2023.git
+git https://github.com/tmochidu/pags_bioinfo2023.git
 cd 2-3
 docker run -p 8888:8888 -v $(PWD):/work/scRNAseq_handson takakoron/pags_bioinfo2023:${TAG} bash -c "export PS1=dummy && source /root/.bashrc && jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root"
 
