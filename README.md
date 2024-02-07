@@ -11,4 +11,5 @@ cd pags_bioinfo2023
 docker run -p 8888:8888 -v $(PWD):/work/scRNAseq_handson takakoron/pags_bioinfo2023:${TAG} 
 
 ```
-出力されたリンク（ http://127.0.0.1:8888/ ...のほう）をブラウザで開けば置いてあるipynb実行できます。
+出力されたリンク（ http://127.0.0.1:8888/ ...のほう）をブラウザで開けば置いてあるipynb実行できます。  
+Jupyter notebook で　「Python_scRNAseq_1.ipynb」を起動してください。
