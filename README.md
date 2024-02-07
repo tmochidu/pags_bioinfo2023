@@ -6,7 +6,7 @@
 ```bash
 TAG=v3 #or arm64
 docker pull takakoron/pags_bioinfo2023:${TAG}
-git https://github.com/tmochidu/pags_bioinfo2023.git
+git clone https://github.com/tmochidu/pags_bioinfo2023.git
 cd pags_bioinfo2023 
 docker run -p 8888:8888 -v $(PWD):/work/scRNAseq_handson takakoron/pags_bioinfo2023:${TAG} 
 
